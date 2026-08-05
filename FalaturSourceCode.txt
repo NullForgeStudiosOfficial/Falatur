@@ -1,0 +1,972 @@
+```metadata
+title: Falatur Live PDF
+description: ''
+tags: []
+renderer: legacy
+theme: 5ePHB
+
+```
+
+```css
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+.page
+{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+}
+
+.phb {
+    -webkit-column-count: 1;
+}
+
+.mylinebreak
+{
+  margin-bottom: 0.25em;
+}
+
+
+
+.phb {background-image: url(https://i.imgur.com/xXS72Yu.png)}
+
+.phb .toc a {color: #0000ff;font-family: Cormorant Garamond;} 
+
+.phb a {color: #0000ff; font-family: Cormorant Garamond;Font-size:20px;}
+
+.phb li {color: #000000;margin-left: 7px;font-family: Cormorant Garamond; font-size:20px; margin-bottom:0.30em}
+
+.phb ul li strong {font-family: Cormorant Garamond;Font-size: 20px;} 
+
+.phb blockquote em {font-family: Cormorant Garamond;Font-size:13px;}
+
+.phb blockquote strong {font-family: Cormorant Garamond;Font-size:13.5px; color: }
+
+.phb blockquote ul {font-family: Cormorant Garamond;Font-size:13px;}
+
+.phb blockquote ul li strong {font-family: Cormorant Garamond;Font-size: 13.5px;} 
+
+.phb table tbody tr:nth-child(odd) {background-color: #bbbbbb ;}
+
+.phb table {margin-bottom: 10px;}
+
+.phb .classTable.wide {margin: 0px 0px 0px;}
+
+.phb div.descriptive strong {font-family: Cormorant Garamond;Font-size:24px; font-weight:2000}
+
+.phb .descriptive p{background-color: transparent;}
+
+.phb hr+blockquote h3 {border-bottom: 0px;}
+
+.phb .classTable h5 {margin-bottom: 0px;}  
+
+.phb p {font-family:Cormorant Garamond ;Font-size:20px; color: #000000;display: inline;  padding: 0px; margin: 0px;}
+
+.phb p strong {font-family: Cormorant Garamond;Font-size:22px; color: #000000;display: inline; font-weight: 2000;padding: 0px; margin: 0px;}
+
+.phb blockquote {font-family: Cormorant Garamond;Font-size:18px;border-image: url();background-color: #dddddd; box-shadow: 0px 0px 7px 3px #cccccc;padding: 3px; border-width: 0px;}
+
+.phb hr+blockquote {background-color: #141414;border-width: 0px;}
+
+.phb th {color: #000000;font-family: Cormorant Garamond;box-shadow: 0px 0px 0px 1px #555555;, font-size:20px}
+
+.phb tr {box-shadow: 0px 0px 0px 2px #aaaaaa;background-color: #dddddd ; font-size:20px}
+
+.phb hr+blockquote hr {height: 3px;margin: 3px; background-image: url();}
+
+.phb td {font-family: Cormorant Garamond;Font-size:20px;box-shadow: 0px 0px 0px 1px #000000;color: #000000;}
+
+.phb blockquote li{background-color: transparent;font-family: Cormorant Garamond;Font-size:13px;} 
+
+.phb .classTable {border-image-repeat: stretch;border-image-source: url();border-width: 0px; background-color: #00000000; margin-bottom: 5px; margin-top: 10px;}
+ 
+.phb table tbody tr td {padding: 0.12cm;}
+	
+.phb div.descriptive {background: rgba(220,220,220,0.35);font-family: Cormorant Garamond;Font-size:22px;border-left: 4px solid #777777; box-shadow: 0 1px 9px rgba(0,0,0,0.30); width:90%}  
+  
+.phb .descriptive {border-image-repeat: stretch;border-image: url();border-width: 0px;padding: 5px;box-shadow: 0 0 7px 3px #cccccc;}
+  
+.phb h1{font-family: Times New Roman;color: #000000;text-align:center }  
+  
+.phb h1+p::first-letter {color: #cccccc;font-family: Times New Roman;Font-size:13px;float: none;font-size: 1.2em;line-height: 1; }
+
+.phb h2{font-family: Times New Roman;color: #000000;   ;}  
+  
+.phb h3{font-family: Times New Roman; border-bottom: 0px; color: #000000;   ;}  
+  
+.phb h4{font-family: Times New Roman;color: #000000;  ;}  
+  
+.phb h5{font-family: Times New Roman;color: #000000;   ;}
+  
+.phb h5{font-family: Times New Roman;color: #000000;}
+
+
+
+
+.phb .pageNumber {right: 383px;bottom: 45px;color: #000000;font-family: Cormorant Garamond;Font-size:20px;font-weight: bold;}
+
+.phb:nth-child(even) .pageNumber {left: 383px;}
+.phb:nth-child(even):after  {bottom: 32px;left: 382px;}
+.phb:after {background-image: url(https://i.imgur.com/buiLUYw.png);bottom:32px; left: -382px;}
+
+.phb#p1:after{ display:none;}
+
+
+
+
+
+
+
+
+```
+
+<img src='https://i.imgur.com/iNVYm7p.png'  style='position:absolute;top:0px;left:0px;height:100%'/>
+
+<span style="color:gold; font-size:40px; position:absolute; bottom:30px; right:30px; font-weight:bold; text-shadow: 1px 0px 10px  #000, 0px 1px 10px #000, -1px 0px 10px #000, 0px -1px 10px #000 ;">
+    <b>Version 0.1</b>
+</span>
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+<div style="
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+width:80%;
+text-align:center;
+">
+
+**Falatur** _(fal- + -tur)_ is a Quenya-inspired name chosen to represent the ideals of the system rather than a direct translation.<br><br>
+
+Drawing from Quenya roots associated with **foam** (_fal-_) and **mastery** (_-tur_), the name symbolizes the pursuit of excellence through the practice of foam combat.<br><br>
+
+Falatur is founded on the belief that combat is not merely about victory, but about honor, discipline, craftsmanship, and continual self-improvement.
+
+</div>
+
+
+\page
+<div class='pageNumber auto'></div>
+
+# Table of Contents
+
+
+
+[The Rule Of Honor](#p4) .................................................................................................. 4<br><br>
+[Weapons](#p5) .................................................................................................................. 5
+&ensp; [Weapons Damage Types](#p5) ......................................................................................... 5
+&ensp; [Weapons Families](#p7) .................................................................................................. 7
+&ensp; [Weapons Construction](#p13) ......................................................................................... 13 <br><br>
+[Hit Points](#p16) ............................................................................................................... 16
+&ensp; [Hit Locations](#p16) ....................................................................................................... 16
+&ensp; [Valid Hits](#p17)  ............................................................................................................ 17
+&ensp; [Illegal Hits](#p17) ........................................................................................................... 17
+&ensp; [Limbs](#p18) .................................................................................................................. 18
+&ensp; [Death](#p19) .................................................................................................................. 19
+&ensp; [Reviving](#p19) .............................................................................................................. 19<br><br>
+
+[Armor](#p20) ................................................................................................................... 20
+&ensp; [Light Armor](#p20) ....................................................................................................... 20
+&ensp; [Medium Armor](#p21) ................................................................................................... 21
+&ensp; [Heavy Armor](#p21) ...................................................................................................... 21<br> <br>
+
+[Other General Rules](#p22) .............................................................................................. 22
+
+
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+
+# The Rule Of Honor
+
+Falatur is built upon trust and honor.
+
+The purpose of the Rule of Honor is not to prevent cheating. It is to ensure that winning is never more important than integrity.
+
+
+Falatur depends more upon its players than its rules. Every player is both a competitor and an official. Without trust, no honor-based combat system can function. <br>
+<div class="mylinebreak"></div>
+<br>
+
+
+
+<div class='descriptive'>
+Every opponent trusts you with their safety. Honor that trust.
+</div>
+
+
+
+Players are expected to acknowledge valid hits, respect their opponents, and uphold both the written rules and the spirit in which they were intended.
+
+No ruleset can account for every situation. When uncertainty arises, players are expected to resolve it honestly rather than seek advantage through technicalities.
+
+<br><br>
+<div class='descriptive'>
+Winning through dishonesty is not a victory.
+</div>
+
+If two players genuinely disagree, neither should assume the other is acting dishonestly. 
+
+Resolve the disagreement respectfully or request a Judge.
+
+<br><br>
+<div class='descriptive'>
+When in doubt, favor your opponent.
+</div>
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+
+# Weapons
+
+Weapons are the primary means of combat in Falatur.
+
+Every weapon must:<div class="mylinebreak"></div>
+
+- Pass inspection.
+- Be assigned a single damage type.
+- Be marked with the appropriate color band.
+
+A weapon may only be assigned a single Primary Damage Type during inspection. Additional damage types granted by weapon properties, abilities, or other bonuses do not change the weapon's Primary Damage Type.
+<br>
+Weapons capable of multiple methods of attack must declare a single damage type during inspection.
+<br>
+Once approved, a weapon's damage type may not be changed without being reinspected by a Judge.<br>
+Judges are to use their best discretion when color banding a weapon.<br> (e.g. not assigning a mace the slashing damage type)<br> <br>
+
+While many historical weapons were capable of striking in several different ways, Weapons are limited to a single damage type to promote clear gameplay, meaningful weapon choice, and consistent judging.<br>
+
+<br>
+
+## Weapon Damage Types
+
+Weapons are assigned a color band according to their damage type.
+<br> <br>
+
+There are three damage types. 
+- **Piercing:** Indicated by the color <span style="color:#009900;">**Green**</span>
+- **Slashing:** Indicated by the color <span style="color:#ff0000;">**Red**</span>
+- **Bludgeoning:** Indicated by the color <span style="color:#0000ff;">**Blue**</span>
+
+
+
+
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+### Piercing Damage
+Piercing weapons concentrate force into a single point, slipping past armor and striking the target beneath.<br>
+
+• Ignores Armor equal to its Piercing damage.<br>
+• Deals No damage to Shields<br>
+• Piercing damage cannot Sever or Break limbs. Damage dealt to a limb instead reduces that limb's Hit Points normally.<br> <br>
+
+
+
+### Slashing Damage
+• Regular damage to armor.<br>
+• Deals No damage to Shields.<br>
+• Slashing damage removes limbs.<br>
+&ensp; • If an arm is slashed: If the arm was holding a weapon,shield, or item. It is to be dropped immediantly. (those with strap shields may simply let the arm fall, as unstrapping a shield mid-combat usually results in death.)<br>
+&ensp; • If a leg is slashed: The user most remove the leg from the ground, and balance on the undamaged leg, hopping if necessary, or kneeling if they prefer.<br>
+
+&ensp; If a severed limb is struck again, it is treated as though it is no longer present. The attack continues naturally into any valid target behind it.
+<br> <br>
+
+
+### Bludgeoning Damage
+• Double damage to armor.<br>
+• Deals damage to Shields.<br>
+• Bludgeoning damage breaks limbs.<br>
+&ensp; • If an arm is broken: It must fall limp upon being hit, the damaged arm cannot be used.<br>
+&ensp;• If a leg is broken: The user most not use the leg to move, and balance on the undamaged leg, hopping if necessary, or kneeling if they prefer.<br>
+&ensp; If a broken limb is hit again by bludgeoning damage, no effect occures, and the player does not lose anymore hit points. 
+<br> <br>
+
+
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+#### Combined Damage
+If a limb is reduced to 0 Hit Points by multiple damage types, the injury suffered is determined by the damage type that reduced the limb to 0 Hit Points.<br><br>
+
+If an attack deals more than one damage type, only the weapon's primary damage type determines injuries to limbs. Any secondary damage types affect Armor, Shields, or other applicable game mechanics normally.
+<br> <br>
+
+## Weapon Families
+Weapons are constructed in many different ways. Certain weapon families gain additional properties based on their design.<br><br>
+
+While many weapons share similar dimensions, they often perform very differently in combat. Weapon families allow these differences to be represented consistently without relying on numerous construction exceptions or special-case rules. <br><br>
+
+### Daggers
+A Dagger is a short weapon with a continuous rigid blade. A Dagger must not exceed the distance from the wielder's fingertips to their elbow.<br>
+Daggers deal **One(1)**  Piercing damage.
+<div class='descriptive'>
+#### Property: Slashing
+
+When making a slashing attack, a Dagger deals **One(1)** Slashing damage instead of its normal damage type.
+</div>
+
+### Rapiers
+A Rapier is a weapon with a continuous rigid blade terminating in a distinct thrusting tip. A Rapier must extend above the wielder's elbow, but must not reach the ground when measured from the wielder's elbow. A Rapier must also possess an enclosed hand guard, such as a basket hilt, for easy identification.<br>
+The hand guard exists solely for weapon identification and offers no protection to the wielder's hand.
+<br>
+Rapiers deal **Two(2)** Piercing damage.
+
+<div class='descriptive'>
+#### Property: Slashing
+When making a slashing attack, a Rapier deals **One(1)**  Slashing damage instead of its normal damage type.
+</div>
+
+
+
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+### Spears
+
+A Spear is a weapon with a rigid shaft terminating in a distinct thrusting tip. When the haft rests on the ground beside the wielder, the tip of the weapon must reach at least the wielder's shoulder.<br>
+
+Spears deal **One(1)**  Piercing damage.
+
+<div class='descriptive'>
+#### Property: Bracing
+
+When wielded with two hands, a Spear deals **Two(2)** Piercing damage.
+</div>
+
+### Short Swords
+
+A Short Sword is a weapon with a continuous rigid blade and an exposed handle no longer than one-third of its overall length.<br>
+
+When held vertically beside the wielder, a Short Sword must extend above the wielder's elbow, but must not reach the ground when measured from the elbow.<br>
+Short Swords deal **Two(2)** Slashing Damage.
+<div class='descriptive'>
+#### Property: None
+Short Swords have no additional properties.
+</div>
+
+### Large Swords
+A Large Sword is a weapon with a continuous rigid blade and an exposed handle no longer than one-third of its overall length.<br>
+
+When the pommel rests on the ground beside the wielder, the tip of the weapon must reach at least the wielder's shoulder.<br>
+Large Swords deal **Two(2)** Slashing Damage.
+<br>
+<div class='descriptive'>
+#### Property: Momentum
+
+When wielded with two hands, a Large Sword deals **+One(1)**  Bludgeoning damage.
+</div>
+
+### Hand Axes
+A Hand Axe is a weapon with a rigid axe head mounted to a haft.<br>
+
+A Hand Axe must be at least one and one-half times the wielder's forearm length. The axe head must not exceed one-third of the weapon's overall length.<br>
+Hand Axes deal **Two(2)** Slashing Damage.
+<div class='descriptive'>
+#### Property: None
+
+Hand Axes have no additional properties.
+</div>
+
+
+
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+### Battle Axes
+A Battle Axe is a weapon with a rigid axe head mounted to a haft.<br>
+When the butt of the haft rests on the ground beside the wielder, the top of the axe head must reach at least the wielder's shoulder. The axe head must comprise more than one-third of the weapon's overall length.<br>
+
+Battle Axes deal **Two(2)** Slashing damage.
+
+<div class='descriptive'>
+#### Property: Momentum
+
+When wielded with two hands, a Battle Axe deals **+One(1)**  Bludgeoning damage.
+</div>
+
+### Small Clubs
+
+A Small Club is a weapon with a continuous rigid striking surface and no defined edge. The exposed handle must not exceed one-third of the weapon's overall length.<br>
+
+A Small Club must extend above the wielder's elbow, but must not reach the ground when measured from the wielder's elbow.<br>
+
+Small Clubs deal **Two(2)** Bludgeoning damage.
+
+<div class='descriptive'>
+#### Property: None
+
+Small Clubs have no additional properties.
+</div>
+
+### Large Clubs
+
+A Large Club is a weapon with a continuous rigid striking surface and no defined edge. The exposed handle must not exceed one-third of the weapon's overall length.<br>
+
+When the butt of the weapon rests on the ground beside the wielder, the top of the striking surface must reach at least the wielder's shoulder.<br>
+
+Large Clubs deal **Three(3)** Bludgeoning damage.<br>
+
+<div class='descriptive'>
+#### Property: Momentum
+
+When wielded with two hands, a Large Club deals **+One(1)**Bludgeoning damage.
+</div>
+
+
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+### Hammers
+
+A Hammer is a weapon with a distinct rigid striking head mounted to a haft. The exposed haft must not exceed one-third of the weapon's overall length.<br>
+
+A Hammer must extend above the wielder's elbow, but must not reach the ground when measured from the wielder's elbow. The striking head must not exceed one-third of the weapon's overall length.<br>
+
+Hammers deal **Two(2)** Bludgeoning damage.
+
+<div class='descriptive'>
+#### Property: None
+
+Hammers have no additional properties.
+</div>
+
+### War Hammers
+A War Hammer is a weapon with a distinct rigid striking head mounted to a handle. The exposed haft must not exceed one-third of the weapon's overall length.<br>
+
+When the butt of the haft rests on the ground beside the wielder, the top of the striking head must reach at least the wielder's shoulder. The striking head must comprise more than one-third of the weapon's overall length.<br>
+
+War Hammers deal **Three(3)** Bludgeoning damage.
+
+<div class='descriptive'>
+#### Property: Momentum
+
+When wielded with two hands, a War Hammer deals **+One(1)**  Bludgeoning damage.
+</div>
+
+### Flails
+
+A Flail is a weapon with a distinct striking head connected to a haft by a flexible tether.<br>
+
+A Flail must extend above the wielder's elbow, but must not reach the ground when measured from the wielder's elbow. The striking head must not exceed one-third of the weapon's overall length.<br>
+
+Flails deal **Two(2)** Bludgeoning damage.
+
+<div class='descriptive'>
+#### Property: None
+
+Flails have no additional properties.
+</div>
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+### Bows
+
+A Bow is a ranged weapon designed to launch arrows. Bows may not be used to make melee attacks.<br>
+
+A Bow must not exceed a draw weight of 30 pounds at a 30-inch draw.<br>
+
+An arrow deals 1 Piercing damage when used as a thrusting weapon.<br>
+An arrow deals 4 Piercing damage when fired from a Bow.<br>
+An arrow must weigh less than 16 oz.
+
+<div class='descriptive'>
+#### Property: Ammunition
+
+A Bow requires an arrow to be nocked before it may be fired.
+</div>
+
+### Crossbows
+
+A Crossbow is a ranged weapon designed to launch bolts. Crossbows may not be used to make melee attacks.
+<br>
+A Crossbow must not exceed a draw weight of 75 pounds.
+<br>
+A bolt deals 1 Piercing damage when used as a thrusting weapon.<br>
+A bolt deals 2 Piercing damage when fired from a Crossbow.
+
+<div class='descriptive'>
+#### Property: Ammunition
+
+A Crossbow requires a bolt to be nocked before it may be fired.
+</div>
+
+
+### Halberds
+
+A Halberd is a polearm with multiple functional striking surfaces mounted to a rigid haft. When the butt of the haft rests on the ground beside the wielder, the highest striking surface must reach at least the wielder's shoulder.<br>
+
+Each striking surface must be clearly distinguishable. <br>
+
+A Halberd must possess at least two distinct functional striking surfaces of different weapon types. <br>
+
+Halberds deal 1 damage of the appropriate damage type for the striking surface used.<br>
+
+<div class='descriptive'>
+#### Property: Versatile
+
+A Halberd may deal Slashing, Piercing, or Bludgeoning damage depending on the striking surface used.
+</div>
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+### Javelins
+
+A Javelin is a ranged weapon with a rigid shaft terminating in a distinct thrusting tip. <br>
+
+A Javelin must weigh less than 16 ounces.<br>
+
+Javelins deal 2 Piercing damage when thrown.<br>
+Javelins deal 1 Piercing damage when used as a thrusting weapon.
+
+<div class='descriptive'>
+#### Property: Thrown
+
+A Javelin must be thrown to deal its full damage.
+</div>
+
+### Whips
+
+A Whip is a flexible weapon consisting of a handle connected to a flexible striking length.<br>
+
+Whips must be in 6 inch sections, with at most a 1 inch gap between them.  <br>
+
+Whips deal **Two(2)** Bludgeoning damage.
+
+<div class='descriptive'>
+#### Property: None
+
+Whips have no additional properties.
+</div>
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+## Weapon Construction 
+All weapons, shields, and equipment used in Falatur must be constructed with player safety as the highest priority.<br>
+
+A Judge may reject any equipment they believe presents an unreasonable risk of injury, regardless of whether it technically complies with these rules.<br><br>
+
+## Inspection
+
+All equipment must pass inspection before being used in combat.<br>
+
+Equipment that becomes damaged or unsafe during play must be removed from the battlefield immediately.
+<br><br>
+## General Requirements
+Weapons must:
+
+- Be constructed to safely simulate the weapon they represent.
+- Be free of exposed cores, sharp edges, or hard protrusions.
+- Have all striking surfaces completely covered in cloth.
+- Be securely assembled with no loose or shifting components.
+- Remain safe when used at full combat force.
+
+<br>
+
+## Striking Surfaces
+
+Every striking surface must be adequately padded.<br>
+
+No striking surface may pass more than **0.5 inches** through a **2.5-inch diameter** opening when tested in the direction of the strike.<br><br>
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+## Non-Striking Surfaces
+
+Crossguards, pommels, basket hilts, and other non-striking components must be padded.<br>
+
+No non-striking component may pass more than **0.5 inches** through a **2-inch diameter** opening.<br><br>
+
+## Coverings
+All striking surfaces must be completely covered in cloth. <br><br>
+
+The padding of a striking surface must remain capable of compressing freely. No covering or reinforcement may significantly reduce the effectiveness of the padding.<br>
+
+Tape, paint, coatings, or any other material that significantly alters the softness or impact characteristics of a striking surface are prohibited.<br><br>
+
+### Padding
+
+The flat of every bladed weapon must be safely padded.<br>
+
+Hafts on swung weapons must be safely padded, excluding a reasonable handhold.<br><br>
+
+## Flex
+
+Weapons must not flex excessively during normal use.<br>
+
+A Judge may reject any weapon they believe flexes beyond safe limits.<br><br>
+
+
+
+
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+
+## Cores
+
+Weapon cores must never become exposed during normal use.<br>
+
+Metal cores are prohibited, except where explicitly permitted for approved projectile construction.<br><br>
+
+### Core Security
+A weapon's core must not rotate, shift, or otherwise move independently of the weapon.<br><br>
+
+The end of every rigid core must terminate in a securely attached retention plate or equivalent structure.
+
+The retention plate must be at least twice the diameter of the core and be capable of preventing the core from penetrating the weapon's padding if the surrounding adhesive or foam fails.<br><br>
+
+#### Approved Retention Methods
+Every rigid core must have a securely attached retention plate or equivalent structure at each end.<br><br>
+
+The retention plate must have a diameter at least twice that of the core and be sufficient to prevent the core from advancing through the weapon if the surrounding foam or adhesive fails.<br> <br>
+
+This requirement applies to all fired projectiles, weapon tips, and pommels.<br><br>
+
+<div class='descriptive'>
+There are no strict requirements for the material used as a retention plate. Pennies, washers, and countless other materials have all been used successfully.<br><br>
+  Use what you have available. Just make sure it is securely attached and capable of preventing the core from advancing if the surrounding foam or adhesive fails.
+</div>
+
+
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+# Hit Points
+All players have the same number of Hit Points.<br>
+
+Each arm, each leg, and the torso have **2 Hit Points**.<br><br>
+
+A player is killed when their torso is reduced to **0 Hit Points**, regardless of the condition of their limbs.<br>
+A killed player must be Revived before returning to play in a skirmish.<br><br>
+
+If a limb at 0 Hit Points is struck again, the damage is transferred to the torso instead, unless the limb is Severed.
+<br><br>
+
+## Hit Locations
+
+The following are considered part of the Arm:<br>
+• Hand<br>
+• Forearm<br>
+• Upper arm<br>
+• Shoulder<br><br>
+
+The following are considered part of the Leg:<br>
+• Foot<br>
+• Lower Leg<br>
+• Thigh<br><br>
+
+
+The following are considered part of the Torso:<br>
+• Chest<br>
+• Abdomen<br>
+• Back<br>
+• Hips<br>
+• Underarm<br><br>
+
+
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+
+
+## Valid Hits
+A slashing weapon may perform a **draw cut** by sliding its striking surface across a target with reasonable force.<br>
+If a player catches or grabs the striking surface of a slashing weapon, the hand is considered hit and the weapon must immediately be released.<br><br>
+
+A piercing attack may be delivered by either a thrust or a push. A push is the application of continuous forward pressure with a legal striking tip until both players acknowledge that sufficient force has been applied under the Rule Of Honor.<br><br>
+
+A hit is only valid if both players acknowledge that it was delivered with reasonable force, as described in the Rule Of Honor, and it is not considered an Illegal Hit.
+
+<br><br>
+
+## Illegal Hits
+A hit to a player's head or groin results in the attacker's immediate death, regardless of armor or remaining Hit Points.<br>
+<div class='descriptive'>
+If the struck player believes the hit was accidental, they may waive this penalty under the Rule Of Honor
+</div>
+	
+
+No portion of a weapon may be used to protect a valid target.<br>  Any body part enclosed by a weapon remains a valid target. *(e.g. a basket hilt on a rapier.)* <br>
+<div class='descriptive'>
+Shields are exempt from this rule.
+</div>
+	
+
+A player may not use a weapon to cover a valid target in an attempt to prevent damage.<br> If a weapon is positioned over a valid target, the covered body part is still considered struck.<br> *(e.g. laying the flat of a sword across the torso.)*
+<div class='descriptive'>
+Shields are exempt from this rule.
+</div>
+
+A weapon must strike a player directly to score a valid hit.<br> Hits resulting solely from a weapon rebounding or deflecting off another weapon do not count.
+
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+## Limb States
+A limb can be in one of three states.<br>
+<br>
+
+### Healthy
+The limb is undamaged, and functions normally. <br>
+Limbs are restored to the Healthy state upon the player being Revived.<br><br>
+
+### Severed
+Limbs are Severed by weapons dealing Slashing Damage. <br>
+A severed limb may no longer be used.<br><br>
+
+If the limb was an arm:<br> If it was holding anything, it is immediately dropped. 
+<div class='descriptive'>
+Those using strap shields may simply allow the arm to hang, as attempting to remove the shield during combat may result in death.
+</div>
+
+If the limb was a leg:<br> The player must begin balancing on the other leg, hopping if necessary.<br>
+A second successful hit to a severed limb results in the player's death.
+<br> <br>
+
+### Broken
+Limbs are broken by weapons dealing Bludgeoning Damage. <br>
+
+A broken limb may hold a weapon, shield, or item, but may not attack, block, or perform any action requiring normal use of that limb.<br><br>
+
+Weapons or shields held by a broken limb may still receive incoming strikes normally.<br> <br>
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+## Death
+A player is considered dead when their torso is reduced to **0 Hit Points**, or when two limbs have been severed.<br><br>
+
+A dead player must immediately lie on the ground at the location of their death and remain there until Revived.<br>
+If playing a respawn match, the player must instead return to their designated respawn point.
+<div class='descriptive'>
+A player may slightly adjust their position for comfort, but may not obstruct living players.
+
+Dead players may call for a Medic, but may not otherwise communicate or participate in the battle.
+</div>
+
+## Reviving
+Reviving a player restores all Hit Points and fully repairs their Armor.<br><br>
+
+Any player may revive their own revivable items.<br><br>
+
+To revive a player or item, maintain uninterrupted physical contact with both hands while audibly counting **"Revivify One"** through **"Revivify Ten."**<br>
+If the countdown is interrupted, or you are struck, the revivification fails and must be restarted.<br><br>
+
+### Medics
+Only designated Medics may revive players.<br><br>
+
+To qualify as a Medic:<br>
+
+- You may not wear armor.
+- You must be approved by a Judge.
+- You must wear a clearly visible Medic insignia.
+
+A Medic automatically revives 30 seconds after death.
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+# Armor
+As there are multiple different types of armor in the world<br>
+
+We will simplify them down to three types: Light, Medium, and Heavy<br><br>
+
+Armor classifications are determined by the weight of each individual armor piece rather than the material from which it is made. This encourages functional craftsmanship while allowing a wide variety of historically inspired armor designs.<br><br>
+
+each armor type will provide a number of damage to its HP before being destroyed.<br>
+To make things simple. Any hit on any armor counts for the entirety of the armor's health.
+
+<div class='classTable'>
+##### Armor Classifications
+| Armor Type | Armor Hit Points | 
+|:---:|:---:|
+| Light | 2 | 
+| Medium | 4 |
+| Heavy | 6 | 
+
+</div>
+
+Armor type is determined by the lowest qualifying armor piece you have equipped.<br><br>
+
+If any equipped armor piece falls into a lower armor class, your entire suit is considered that armor class.
+<div class='descriptive'>
+A player wearing a 15 lb chest piece, but 2 lb arms, is considered to be wearing **Light Armor**.
+</div>
+
+## Light Armor
+Light Armor is armor that does not meet the minimum weight requirements for Medium Armor.
+
+<div class='classTable'>
+##### Light Armor Weight Requirements
+| Armor Piece |Requirement | 
+|:---:|:---:|
+| Chest | 0-14 lb | 
+| Arms | 0-2 lb |
+| Helmet | 0-1 lb | 
+| Legs | 0-4 lb | 
+
+</div>
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+
+## Medium Armor
+Medium armor is defined as armor meeting the minimum weight requirements for Medium Armor, but not the minimum requirements for Heavy Armor.
+
+<div class='classTable'>
+##### Medium Armor Weight Requirements
+| Armor Piece |Requirement | 
+|:---:|:---:|
+| Chest | 15 lb | 
+| Arms | 3 lb |
+| Helmet | 2 lb | 
+| Legs | 5 lb | 
+
+</div>
+
+<br><br>
+
+## Heavy Armor
+Heavy Armor is armor meeting the minimum weight requirements for Heavy Armor.
+
+<div class='classTable'>
+##### Heavy Armor Weight Requirements
+| Armor Piece |Requirement | 
+|:---:|:---:|
+| Chest | 16+ lb | 
+| Arms | 4+ lb |
+| Helmet | 3+ lb | 
+| Legs | 6+ lb | 
+
+</div>
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+# Other General Rules
+Falatur is designed to be easy to learn, inexpensive to play, and difficult to master. <br>
+
+These rules will do their best to adhere to that philosphy. <br><br>
+
+## Judges Discretion
+The Judge has final authority over all safety decisions. Any equipment or action deemed unsafe may be prohibited, even if it technically complies with the written rules.<br> <br>
+
+## Participation
+Players participate at their own risk.<br>
+
+Foam combat is a physical activity involving running, falling, and controlled weapon strikes. Minor injuries such as bruises, scrapes, and muscle soreness should be expected. <br><br>
+
+## Safe Equipment
+All weapons, shields, and equipment must pass inspection before use. <br><br>
+
+Construction requirements are described in Weapon Construction. <br><br>
+
+Equipment that becomes unsafe during play must be removed from the field immediately.<br><br>
+
+A Judge may inspect equipment at any time.<br><br>
+
+Weapons may not be intentionally thrown unless they are specifically designed and approved as thrown weapons.<br><br>
+
+Any significant modification to approved equipment requires reinspection before use.<br><br>
+
+## Controlled Force
+Players must always fight with controlled force.<br><br>
+
+Excessive force, reckless behavior, or intentionally attempting to injure another player is prohibited.
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+## Blind Attacks
+
+A player may not intentionally strike a target they cannot reasonably see.<br>
+A player's vision may not be intentionally obstructed by equipment.<br><br>
+
+## Physical Contact
+Intentional punching, kicking, elbowing, kneeing, grappling, tackling, or body-checking is prohibited unless explicitly allowed by the scenario. <br>
+
+Incidental contact during normal combat is expected.<br><br>
+
+## Unsafe Conditions
+If a player believes an unsafe condition exists, they should immediately call **"Hold!"**<br>
+
+All players must stop fighting immediately until a Judge declares the field safe.<br><br>
+
+## Respect The Field
+Players must be aware of hazards such as holes, uneven ground, rocks, low branches, spectators, and wildlife.<br>
+
+The Judge may modify or stop play if the battlefield becomes unsafe.<br><br>
+
+## Modifications
+No equipment may be intentionally designed to exploit ambiguities or loopholes in these rules.<br>
+
+The Judge's decision is final.<br><br>
+
+## Simulation
+Weapons should reasonably resemble the weapon they are intended to represent in both appearance and function.<br>
+
+Equipment intentionally designed to confuse players or circumvent the rules is prohibited.<br><br>
+
+This is not to be confused with unique weapons. <br>
+
+Weapons must clearly fit within one of Falatur's weapon families. If not. A Judge will determine the weapon classification of any equipment whose function is unclear. 
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+## Clothing
+Players are encouraged to wear fantasy or historical clothing, but no costume is required unless specified by the event organizer.<br><br>
+
+Clothing must allow safe movement and may not present a hazard to the player or others.<br><br>
+
+
+## Sportsmanship
+As outlined in the Rule of Honor:<br>
+Players are expected to prioritize the safety of themselves and others above winning.<br><br>
+
+If a situation feels unsafe, stop and ask a Judge.<br><br>
+
+Due to this. No rule, objective, or victory is more important to a players safety.
+
+
