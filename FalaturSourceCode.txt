@@ -1,128 +1,7 @@
-```metadata
-title: Falatur Live PDF
-description: ''
-tags: []
-renderer: legacy
-theme: 5ePHB
-
-```
-
-```css
-
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-.page
-{
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 600;
-}
-
-.phb {
-    -webkit-column-count: 1;
-}
-
-.mylinebreak
-{
-  margin-bottom: 0.25em;
-}
-
-
-
-.phb {background-image: url(https://i.imgur.com/xXS72Yu.png)}
-
-.phb .toc a {color: #0000ff;font-family: Cormorant Garamond;} 
-
-.phb a {color: #0000ff; font-family: Cormorant Garamond;Font-size:20px;}
-
-.phb li {color: #000000;margin-left: 7px;font-family: Cormorant Garamond; font-size:20px; margin-bottom:0.30em}
-
-.phb ul li strong {font-family: Cormorant Garamond;Font-size: 20px;} 
-
-.phb blockquote em {font-family: Cormorant Garamond;Font-size:13px;}
-
-.phb blockquote strong {font-family: Cormorant Garamond;Font-size:13.5px; color: }
-
-.phb blockquote ul {font-family: Cormorant Garamond;Font-size:13px;}
-
-.phb blockquote ul li strong {font-family: Cormorant Garamond;Font-size: 13.5px;} 
-
-.phb table tbody tr:nth-child(odd) {background-color: #bbbbbb ;}
-
-.phb table {margin-bottom: 10px;}
-
-.phb .classTable.wide {margin: 0px 0px 0px;}
-
-.phb div.descriptive strong {font-family: Cormorant Garamond;Font-size:24px; font-weight:2000}
-
-.phb .descriptive p{background-color: transparent;}
-
-.phb hr+blockquote h3 {border-bottom: 0px;}
-
-.phb .classTable h5 {margin-bottom: 0px;}  
-
-.phb p {font-family:Cormorant Garamond ;Font-size:20px; color: #000000;display: inline;  padding: 0px; margin: 0px;}
-
-.phb p strong {font-family: Cormorant Garamond;Font-size:22px; color: #000000;display: inline; font-weight: 2000;padding: 0px; margin: 0px;}
-
-.phb blockquote {font-family: Cormorant Garamond;Font-size:18px;border-image: url();background-color: #dddddd; box-shadow: 0px 0px 7px 3px #cccccc;padding: 3px; border-width: 0px;}
-
-.phb hr+blockquote {background-color: #141414;border-width: 0px;}
-
-.phb th {color: #000000;font-family: Cormorant Garamond;box-shadow: 0px 0px 0px 1px #555555;, font-size:20px}
-
-.phb tr {box-shadow: 0px 0px 0px 2px #aaaaaa;background-color: #dddddd ; font-size:20px}
-
-.phb hr+blockquote hr {height: 3px;margin: 3px; background-image: url();}
-
-.phb td {font-family: Cormorant Garamond;Font-size:20px;box-shadow: 0px 0px 0px 1px #000000;color: #000000;}
-
-.phb blockquote li{background-color: transparent;font-family: Cormorant Garamond;Font-size:13px;} 
-
-.phb .classTable {border-image-repeat: stretch;border-image-source: url();border-width: 0px; background-color: #00000000; margin-bottom: 5px; margin-top: 10px;}
- 
-.phb table tbody tr td {padding: 0.12cm;}
-	
-.phb div.descriptive {background: rgba(220,220,220,0.35);font-family: Cormorant Garamond;Font-size:22px;border-left: 4px solid #777777; box-shadow: 0 1px 9px rgba(0,0,0,0.30); width:90%}  
-  
-.phb .descriptive {border-image-repeat: stretch;border-image: url();border-width: 0px;padding: 5px;box-shadow: 0 0 7px 3px #cccccc;}
-  
-.phb h1{font-family: Times New Roman;color: #000000;text-align:center }  
-  
-.phb h1+p::first-letter {color: #cccccc;font-family: Times New Roman;Font-size:13px;float: none;font-size: 1.2em;line-height: 1; }
-
-.phb h2{font-family: Times New Roman;color: #000000;   ;}  
-  
-.phb h3{font-family: Times New Roman; border-bottom: 0px; color: #000000;   ;}  
-  
-.phb h4{font-family: Times New Roman;color: #000000;  ;}  
-  
-.phb h5{font-family: Times New Roman;color: #000000;   ;}
-  
-.phb h5{font-family: Times New Roman;color: #000000;}
-
-
-
-
-.phb .pageNumber {right: 383px;bottom: 45px;color: #000000;font-family: Cormorant Garamond;Font-size:20px;font-weight: bold;}
-
-.phb:nth-child(even) .pageNumber {left: 383px;}
-.phb:nth-child(even):after  {bottom: 32px;left: 382px;}
-.phb:after {background-image: url(https://i.imgur.com/buiLUYw.png);bottom:32px; left: -382px;}
-
-.phb#p1:after{ display:none;}
-
-
-
-
-
-
-
-
-```
-
 <img src='https://i.imgur.com/iNVYm7p.png'  style='position:absolute;top:0px;left:0px;height:100%'/>
 
 <span style="color:gold; font-size:40px; position:absolute; bottom:30px; right:30px; font-weight:bold; text-shadow: 1px 0px 10px  #000, 0px 1px 10px #000, -1px 0px 10px #000, 0px -1px 10px #000 ;">
-    <b>Version 0.1</b>
+    <b>Version 0.2</b>
 </span>
 
 \page
@@ -303,13 +182,44 @@ If a limb is reduced to 0 Hit Points by multiple damage types, the injury suffer
 If an attack deals more than one damage type, only the weapon's primary damage type determines injuries to limbs. Any secondary damage types affect Armor, Shields, or other applicable game mechanics normally.
 <br> <br>
 
+## Weapon Lengths
+The length of a weapon determines its "size." Falatur weapons come in three sizes. <br><br>
+
+**Small:** The weapon must be no longer than the distance from your hip to your knee. <br>
+If the weapon exceeds this length, it is considered a Medium weapon.<br><br>
+
+**Medium:** The weapon must be longer than the distance from your hip to your knee, but shorter than the distance from your hip to your foot. <br>
+If it is longer, it is considered an illegal weapon. <br> 
+<br>
+
+**Large:** The weapon must be longer than the distance from your foot to your shoulder.
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+
+<img src='https://raw.githubusercontent.com/NullForgeStudiosOfficial/Falatur/refs/heads/main/Silhouette.png'  style='position:absolute;bottom:130px;left:0px;height:80%'/>
+
+
+
+
+
+
+
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+
 ## Weapon Families
 Weapons are constructed in many different ways. Certain weapon families gain additional properties based on their design.<br><br>
 
 While many weapons share similar dimensions, they often perform very differently in combat. Weapon families allow these differences to be represented consistently without relying on numerous construction exceptions or special-case rules. <br><br>
 
 ### Daggers
-A Dagger is a short weapon with a continuous rigid blade. A Dagger must not exceed the distance from the wielder's fingertips to their elbow.<br>
+A Dagger is a Small weapon with a continuous rigid blade.<br>
 Daggers deal **One(1)**  Piercing damage.
 <div class='descriptive'>
 #### Property: Slashing
@@ -318,7 +228,7 @@ When making a slashing attack, a Dagger deals **One(1)** Slashing damage instead
 </div>
 
 ### Rapiers
-A Rapier is a weapon with a continuous rigid blade terminating in a distinct thrusting tip. A Rapier must extend above the wielder's elbow, but must not reach the ground when measured from the wielder's elbow. A Rapier must also possess an enclosed hand guard, such as a basket hilt, for easy identification.<br>
+A Rapier is a Medium weapon with a continuous rigid blade terminating in a distinct thrusting tip.A Rapier must also possess an enclosed hand guard, such as a basket hilt, for easy identification.<br>
 The hand guard exists solely for weapon identification and offers no protection to the wielder's hand.
 <br>
 Rapiers deal **Two(2)** Piercing damage.
@@ -328,138 +238,77 @@ Rapiers deal **Two(2)** Piercing damage.
 When making a slashing attack, a Rapier deals **One(1)**  Slashing damage instead of its normal damage type.
 </div>
 
-
-
-
-\page
-<div class='pageNumber auto'></div>
-<div class='wide'></div>
-
 ### Spears
 
-A Spear is a weapon with a rigid shaft terminating in a distinct thrusting tip. When the haft rests on the ground beside the wielder, the tip of the weapon must reach at least the wielder's shoulder.<br>
+A Spear is a Large weapon consisting of a rigid shaft that terminates in a distinct thrusting tip. <br>
 
-Spears deal **One(1)**  Piercing damage.
+Spears deal **Two(3)** Piercing damage.<br> 
 
-<div class='descriptive'>
-#### Property: Bracing
-
-When wielded with two hands, a Spear deals **Two(2)** Piercing damage.
-</div>
-
-### Short Swords
-
-A Short Sword is a weapon with a continuous rigid blade and an exposed handle no longer than one-third of its overall length.<br>
-
-When held vertically beside the wielder, a Short Sword must extend above the wielder's elbow, but must not reach the ground when measured from the elbow.<br>
-Short Swords deal **Two(2)** Slashing Damage.
-<div class='descriptive'>
-#### Property: None
-Short Swords have no additional properties.
-</div>
-
-### Large Swords
-A Large Sword is a weapon with a continuous rigid blade and an exposed handle no longer than one-third of its overall length.<br>
-
-When the pommel rests on the ground beside the wielder, the tip of the weapon must reach at least the wielder's shoulder.<br>
-Large Swords deal **Two(2)** Slashing Damage.
-<br>
-<div class='descriptive'>
-#### Property: Momentum
-
-When wielded with two hands, a Large Sword deals **+One(1)**  Bludgeoning damage.
-</div>
-
-### Hand Axes
-A Hand Axe is a weapon with a rigid axe head mounted to a haft.<br>
-
-A Hand Axe must be at least one and one-half times the wielder's forearm length. The axe head must not exceed one-third of the weapon's overall length.<br>
-Hand Axes deal **Two(2)** Slashing Damage.
-<div class='descriptive'>
-#### Property: None
-
-Hand Axes have no additional properties.
-</div>
-
-
+When wielded with only one hand, Spears deal **Two(2)** Piercing damage.<br> <br>
 
 
 \page
 <div class='pageNumber auto'></div>
 <div class='wide'></div>
 
-### Battle Axes
-A Battle Axe is a weapon with a rigid axe head mounted to a haft.<br>
-When the butt of the haft rests on the ground beside the wielder, the top of the axe head must reach at least the wielder's shoulder. The axe head must comprise more than one-third of the weapon's overall length.<br>
 
-Battle Axes deal **Two(2)** Slashing damage.
 
-<div class='descriptive'>
-#### Property: Momentum
+### Swords
 
-When wielded with two hands, a Battle Axe deals **+One(1)**  Bludgeoning damage.
-</div>
+A Sword is a weapon with a continuous rigid blade and an exposed handle no longer than one-third of its overall length. <br>
 
-### Small Clubs
-
-A Small Club is a weapon with a continuous rigid striking surface and no defined edge. The exposed handle must not exceed one-third of the weapon's overall length.<br>
-
-A Small Club must extend above the wielder's elbow, but must not reach the ground when measured from the wielder's elbow.<br>
-
-Small Clubs deal **Two(2)** Bludgeoning damage.
-
-<div class='descriptive'>
-#### Property: None
-
-Small Clubs have no additional properties.
-</div>
-
-### Large Clubs
-
-A Large Club is a weapon with a continuous rigid striking surface and no defined edge. The exposed handle must not exceed one-third of the weapon's overall length.<br>
-
-When the butt of the weapon rests on the ground beside the wielder, the top of the striking surface must reach at least the wielder's shoulder.<br>
-
-Large Clubs deal **Three(3)** Bludgeoning damage.<br>
+Swords deal **Two(2)** Slashing Damage.
 
 <div class='descriptive'>
 #### Property: Momentum
 
-When wielded with two hands, a Large Club deals **+One(1)**Bludgeoning damage.
+If the Sword is considered a **Large** weapon, it also deals **One(1)** Bludgeoning Damage when wielded with two hands.
 </div>
 
+### Axes
 
+An Axe is a weapon with a rigid axe head mounted to a haft. The axe head must not exceed one-third of the weapon's overall length. <br>
 
-\page
-<div class='pageNumber auto'></div>
-<div class='wide'></div>
+Axes deal **Two(2)** Slashing Damage.
+
+<div class='descriptive'>
+#### Property: Momentum
+
+If the Axe is considered a **Large** weapon, it also deals **One(1)** Bludgeoning Damage when wielded with two hands.
+</div>
+
+### Clubs
+
+A Club is a weapon with a continuous rigid striking surface and no defined edge. The exposed handle must not exceed one-third of the weapon's overall length. <br>
+
+Clubs deal **Two(2)** Bludgeoning Damage.
+
+<div class='descriptive'>
+#### Property: Momentum
+
+If the Club is considered a **Large** weapon, it deals **Four(4)** Bludgeoning Damage when wielded with two hands.
+</div>
 
 ### Hammers
 
-A Hammer is a weapon with a distinct rigid striking head mounted to a haft. The exposed haft must not exceed one-third of the weapon's overall length.<br>
+A Hammer is a weapon with a distinct rigid striking head mounted to a haft. The striking head must not exceed one-third of the weapon's overall length. <br>
 
-A Hammer must extend above the wielder's elbow, but must not reach the ground when measured from the wielder's elbow. The striking head must not exceed one-third of the weapon's overall length.<br>
-
-Hammers deal **Two(2)** Bludgeoning damage.
-
-<div class='descriptive'>
-#### Property: None
-
-Hammers have no additional properties.
-</div>
-
-### War Hammers
-A War Hammer is a weapon with a distinct rigid striking head mounted to a handle. The exposed haft must not exceed one-third of the weapon's overall length.<br>
-
-When the butt of the haft rests on the ground beside the wielder, the top of the striking head must reach at least the wielder's shoulder. The striking head must comprise more than one-third of the weapon's overall length.<br>
-
-War Hammers deal **Three(3)** Bludgeoning damage.
+Hammers deal **Two(2)** Bludgeoning Damage.
 
 <div class='descriptive'>
 #### Property: Momentum
 
-When wielded with two hands, a War Hammer deals **+One(1)**  Bludgeoning damage.
+If the Hammer is considered a **Large** weapon, it deals **Four(4)** Bludgeoning Damage when wielded with two hands.
 </div>
+
+
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+
+
+
 
 ### Flails
 
@@ -475,9 +324,6 @@ Flails deal **Two(2)** Bludgeoning damage.
 Flails have no additional properties.
 </div>
 
-\page
-<div class='pageNumber auto'></div>
-<div class='wide'></div>
 
 ### Bows
 
@@ -510,6 +356,11 @@ A bolt deals 2 Piercing damage when fired from a Crossbow.
 A Crossbow requires a bolt to be nocked before it may be fired.
 </div>
 
+\page
+<div class='pageNumber auto'></div>
+<div class='wide'></div>
+
+
 
 ### Halberds
 
@@ -527,9 +378,6 @@ Halberds deal 1 damage of the appropriate damage type for the striking surface u
 A Halberd may deal Slashing, Piercing, or Bludgeoning damage depending on the striking surface used.
 </div>
 
-\page
-<div class='pageNumber auto'></div>
-<div class='wide'></div>
 
 ### Javelins
 
