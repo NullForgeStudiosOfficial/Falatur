@@ -26,3 +26,10 @@ The PDF above is always the current official release.
 - Weapon construction standards.
 - Armor and damage systems.
 - General gameplay rules.
+
+
+## Version 0.2
+
+- Updated weapon sizes to be concise and easily distinguishable with Ashes of Arcanum weapon system names.
+- Re-did weapon families to reflect weapon size changes. 
+- Added helpful image to determine your weapon size. 
